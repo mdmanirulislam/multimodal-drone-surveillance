@@ -1,0 +1,8 @@
+corpus,split,Bad,Good,All
+ESC-50,test,40,360,400
+ESC-50,train,120,1080,1200
+ESC-50,val,40,360,400
+UrbanSound8K,test,115,722,837
+UrbanSound8K,train,1075,6004,7079
+UrbanSound8K,val,113,703,816
+All,,1503,9229,10732

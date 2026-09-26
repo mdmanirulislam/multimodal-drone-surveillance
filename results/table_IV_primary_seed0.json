@@ -1,0 +1,14 @@
+{
+  "n_test": 1237,
+  "accuracy": 0.931285367825384,
+  "precision_bad": 0.8431372549019608,
+  "recall_bad": 0.5548387096774193,
+  "f1_bad": 0.669260700389105,
+  "roc_auc": 0.8773299147337666,
+  "average_precision": 0.7344213759124328,
+  "TN_good_correct": 1066,
+  "FP_good_to_bad": 16,
+  "FN_bad_to_good": 69,
+  "TP_bad_correct": 86,
+  "threshold": 0.9400000000000001
+}

@@ -1,0 +1,11 @@
+{
+  "seed": 2,
+  "epochs": 40,
+  "batch_size": 64,
+  "lr": 0.001,
+  "best_epoch": 36,
+  "best_val_ap": 0.9572816675735416,
+  "threshold": 0.8400000000000001,
+  "val_f1_at_threshold": 0.8970099667774086,
+  "train_seconds": 3067.429813146591
+}

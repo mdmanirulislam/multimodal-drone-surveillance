@@ -1,0 +1,58 @@
+{
+  "hardware": {
+    "cpu": "Intel(R) Core(TM) Ultra 7 155U",
+    "physical_cores": 12,
+    "logical_cores": 14,
+    "ram_gb": 31.5,
+    "gpu": "Intel integrated graphics only (no CUDA GPU); all timings on CPU",
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10",
+    "torch": "2.14.0+cpu",
+    "torch_threads": 12,
+    "on_ac_power": true,
+    "ultralytics": "8.4.163"
+  },
+  "yolo11": {
+    "yolo11n": {
+      "params_M": 2.62,
+      "mean_ms": 66.75607200013474,
+      "median_ms": 65.51304995082319,
+      "p95_ms": 77.25309999659657,
+      "fps_from_mean": 14.97991074127282,
+      "runs": 100
+    },
+    "yolo11s": {
+      "params_M": 9.46,
+      "mean_ms": 157.2950409911573,
+      "median_ms": 147.0658999751322,
+      "p95_ms": 230.96419998910278,
+      "fps_from_mean": 6.35747950919964,
+      "runs": 100
+    },
+    "yolo11m": {
+      "params_M": 20.11,
+      "mean_ms": 385.11218699393794,
+      "median_ms": 338.531450019218,
+      "p95_ms": 658.9089999906719,
+      "fps_from_mean": 2.5966459483032174,
+      "runs": 100
+    }
+  },
+  "audiocnn": {
+    "params_M": 0.421,
+    "forward_only": {
+      "mean_ms": 4.667006498784758,
+      "median_ms": 4.306349961552769,
+      "p95_ms": 6.761400029063225,
+      "fps_from_mean": 214.27011088593727,
+      "runs": 200
+    },
+    "logmel_plus_forward": {
+      "mean_ms": 5.412769006215967,
+      "median_ms": 5.357300047762692,
+      "p95_ms": 6.188900093548,
+      "fps_from_mean": 184.74832361248198,
+      "runs": 200
+    }
+  }
+}

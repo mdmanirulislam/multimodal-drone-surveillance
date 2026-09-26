@@ -1,0 +1,9 @@
+{
+  "bad_test_clips": 155,
+  "siren_bad_test_clips": 91,
+  "siren_share_pct": 58.70967741935483,
+  "siren_by_corpus": {
+    "ESC-50": 8,
+    "UrbanSound8K": 83
+  }
+}
